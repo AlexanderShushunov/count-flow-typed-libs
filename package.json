@@ -1,0 +1,22 @@
+{
+  "name": "count-flow-typed-libs",
+  "version": "1.0.0",
+  "description": "Count unique libs in flow-typed repository",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexanderShushunov/count-flow-typed-libs"
+  },
+  "scripts": {
+    "start": "node --experimental-modules ./index.mjs"
+  },
+  "author": "Alexander Shushunov <ashushunov@mail.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "node-run-cmd": "^1.0.1"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}
